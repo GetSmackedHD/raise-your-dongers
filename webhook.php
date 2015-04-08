@@ -1,8 +1,8 @@
 <?PHP
 
-$webhookKey = 'xxxxxxxx'; // key from http://getredditalerts.com
-$redditUsername = 'xxxxxxxx'; //username of your bot
-$redditPassword = 'xxxxxxxx'; //password of your bot
+$webhookKey = 'OQRHZvnknxcsGLIZwWf3MkCB'; // key from http://getredditalerts.com
+$redditUsername = 'DelayedArtisticGumpy'; //username of your bot
+$redditPassword = 'fazan5'; //password of your bot
 
 
 //you shouldn't need to edit anything below this line, unless you want to customize the response
@@ -27,7 +27,7 @@ if($redditAlert->webhookKey!=$webhookKey){
 require 'reddit.php';
 $reddit = new reddit($redditUsername,$redditPassword);
 
-$response = $reddit->addComment($redditAlert->reddit->name,'ヽ༼ຈل͜ຈ༽ﾉ');
+$response = $reddit->addComment($redditAlert->reddit->name,'[DelayedArtisticGumpy](https://gfycat.com/DelayedArtisticGuppy)');
 var_dump($response);
 
 exit;
